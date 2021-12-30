@@ -1,0 +1,11 @@
+name: DOLNapTheUI
+author: Shin1134
+version: 1.0.87
+description: Plugin DonateUI
+main: DOLNapTheUI\Main
+api: 3.0.0
+commands:
+  napthe:
+    description: "Nạp Thẻ Tự Động!"
+  givecp:
+    description: "Nạp Thẻ Tự Động!"

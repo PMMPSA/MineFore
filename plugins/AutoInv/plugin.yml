@@ -1,0 +1,5 @@
+name: AutoInv
+author: Nope
+version: 1.0.0
+main: PTK\AUTOINV\Main
+api: 3.0.0

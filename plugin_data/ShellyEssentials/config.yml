@@ -1,0 +1,53 @@
+---
+# Below is the config are the messages that will be broadcasted
+messages:
+ - "§6 Để nạp thẻ tự động tại §dserver§b hãy dùng lệnh§d /napthe §b[Nạp Thẻ Sẽ Đổi Được X2 Point Và Xu]"
+ - "§e Để mua §dthú cưng §6cho riêng bạn hãy dùng lệnh §b/buypet §6mua bằng point"
+ - "§e Muốn người khác§c không thể tp qua bạn?§e Hãy dùng lệnh§b /khongtp"
+ - "§d AngelKid §ecó các quyền lợi như §bset time, nick, kickk, kiteffect, vanish §evới giá chỉ có §c500k!"
+ - "§a Mua point bằng cách dùng lệnh §b/muapoint§c [§d400.000 Xu = 1 Point§c]"
+ - "§6 Để nạp thẻ tự động tại §dserver§b hãy dùng lệnh§d /napthe §b[Nạp Thẻ Sẽ Đổi Được X2 Point Và Xu]"
+ - "§a Khi gửi tiền vô §6ngân hàng, §abạn sẽ được nhận lại tiền lãi!, dùng §d/nganhang §ađể gửi!"
+ - "§a Bán tất cả đồ bằng lệnh §b/sell all"
+ - "§6 Để nạp thẻ tự động tại §dserver§b hãy dùng lệnh§d /napthe §b[Nạp Thẻ Sẽ Đổi Được X2 Point Và Xu]"
+ - "§d Bạn muốn mua §ckey crate? §bHãy dùng lệnh§a /choden §bđể mua!"
+ - "§d Bạn muốn mua §ccác danh hiệu cực ngầu tại đâyp?? §bHãy dùng lệnh§a /muadanhhieu §bđể mua! §aDùng /danhhieu để bật. "
+ - "§d Dùng §b/ah §6để đấu giá món đồ của bạn."
+ - "§e Khi §6cúp level §ecủa bạn lên §acấp 500§e, bạn sẽ được §cX2 item §ekhi đào!"
+ - "§6 Muốn sửa đồ?§a Hãy dùng lệnh §b/suado"
+ - "§6 Để xây dựng một §dclan§6 hùng mạnh,§a hãy dùng lệnh §b/clan help"
+ - "§6 Đệ tử mine hộ là một tính năng cực hay của §dserver,§a giúp bạn có 1 đệ tử mine tự động, dùng §b/detu§a để mua"
+ - "§e Muốn trở thành pro §achuyển sinh?§b hãy dùng §d/chuyensinh §c[Khi Chuyển Sinh Bạn Sẽ Mine Được Xu]"
+ - "§6 Để nạp thẻ tự động tại §dserver§b hãy dùng lệnh§d /napthe §b[Nạp Thẻ Sẽ Đổi Được X2 Point Và Xu]"
+ - "§a Để xóa §dpet§a của bạn hãy dùng lệnh §b/clearpet, §6lưu ý sẽ không được hoàn lại point!"
+
+
+# The below config is the prefix before the above messages
+prefix: "§l§3✉§6 [§bsκʏ§aʙʟocκ(ʙιɴ)§6]"
+
+# The below configs is when the messages above will be broadcasted in seconds
+broadcast-interval: 60
+
+# The below config is the server name that will show up in the minecraft server list (NOTE: Use & for color coding)
+motd: ""
+
+# The below config is the title that will show when the player joins the server.
+# To show the player's name use {playername}.
+join-title: ""
+
+# The below config is the subtitle that will show when the player joins the server
+# To show the player's name use {playername}.
+join-subtitle: ""
+
+# The below config is the message that will be sent when the player joins the server
+join-message: ""
+
+# The below config is to toggle on or off novoid support (OPTIONS: on and off)
+novoid: "on"
+
+# The below config is to toggle on or off hunger disabler support (OPTIONS: on and off)
+hunger-disabler: "off"
+
+# The below config is to toggle on or off clear lagg support (OPTIONS: on and off)
+clearlagg: "off"
+...

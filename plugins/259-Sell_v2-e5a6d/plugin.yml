@@ -1,0 +1,16 @@
+name: Sell
+api: 3.0.0
+main: SellHand\Main
+version: 2.0
+author: Muqsit
+commands:
+  sell:
+    description: Sells the item in your hand.
+permission:
+  sell:
+    default: true
+    children:
+      sell.hand:
+        default: true
+      sell.all:
+        default: true

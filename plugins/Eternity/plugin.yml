@@ -1,0 +1,12 @@
+name: Eternity
+version: 1.0
+api: 3.9.0
+main: minefore\mf\Main
+author: minefore and shin1134
+
+commands:
+  eternity:
+    description: Tính Năng Eternity!
+permissions:
+  eternity.mf:
+    default: false

@@ -1,0 +1,70 @@
+---
+main: aliuly\worldprotect\Main
+api:
+- 3.0.0
+load: STARTUP
+name: WorldProtect
+description: protect worlds from griefers, pvp, limits and borders
+version: 2.3.8
+author: aliuly
+website: https://github.com/Muirfield/pocketmine-plugins/tree/master/WorldProtect
+commands:
+  worldprotect:
+    description: Manage worlds
+    usage: /wp <help|sub-cmd> [options]
+    permission: wp.cmd.all
+    aliases:
+    - wp
+permissions:
+  wp.motd:
+    default: false
+    description: Display MOTD
+  wp.cmd.all:
+    default: false
+    description: Allow access to protect command
+  wp.cmd.protect:
+    default: false
+    description: Change protect mode
+  wp.cmd.protect.auth:
+    default: false
+    description: Permit place/destroy in protected worlds
+  wp.cmd.border:
+    default: false
+    description: Allow contfol of border functionality
+  wp.cmd.pvp:
+    default: false
+    description: Allow PvP controls
+  wp.cmd.noexplode:
+    default: false
+    description: Allow NoExplode controls
+  wp.cmd.limit:
+    default: false
+    description: Allow control to limit functionality
+  wp.cmd.wpmotd:
+    default: false
+    description: Allow editing the motd
+  wp.cmd.addrm:
+    default: false
+    description: Allow modifying the auth list
+  wp.cmd.unbreakable:
+    default: false
+    description: Modify unbreakable block list
+  wp.cmd.bancmd:
+    default: false
+    description: Ban/unban commands
+  wp.cmd.banitem:
+    default: false
+    description: Ban/unban items
+  wp.banitem.exempt:
+    default: false
+    description: it is able to use banned items
+  wp.cmd.info:
+    default: false
+    description: Show WP config info
+  wp.cmd.gm:
+    default: false
+    description: Allow setting a per-world gamemode
+  wp.cmd.gm.exempt:
+    default: false
+    description: Users with this permissions will ignore per world gm
+...

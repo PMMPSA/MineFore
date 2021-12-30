@@ -1,0 +1,51 @@
+---
+crate:
+  x: -358.537800
+  "y": 77.000000
+  z: 424.481000
+  level: skyblock
+  public: true
+  metadata: []
+boss:
+  x: 269.615100
+  "y": 4.000000
+  z: 429.682000
+  level: boss
+  public: true
+  metadata: []
+pvp:
+  x: 99.914300
+  "y": 83.000000
+  z: 39.574100
+  level: Koth
+  public: true
+  metadata: []
+quaytay:
+  x: -357.766100
+  "y": 77.000000
+  z: 427.579400
+  level: skyblock
+  public: false
+  metadata: []
+DatDz:
+  x: -5520.086900
+  "y": 69.000000
+  z: -3090.795700
+  level: sb
+  public: false
+  metadata: []
+Refusel:
+  x: -1808.699100
+  "y": 69.000000
+  z: 5909.570800
+  level: sb
+  public: true
+  metadata: []
+thestar:
+  x: -4210.424300
+  "y": 69.000000
+  z: -3651.134000
+  level: sb
+  public: false
+  metadata: []
+...

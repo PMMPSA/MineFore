@@ -1,0 +1,142 @@
+﻿---
+# Refer to https://minecraft.gamepedia.com/Formatting_codes for formatting codes, you can replace the 'ยง' symbol with a '&'
+
+# The titles of the Auction House UI
+menu-name: "&l&6Đấu Gía"
+listings-menu-name: "&l&6Danh Sách Đấu Gía"
+expired-menu-name: "&l&6Đấu Gía Hết Hạn"
+purchase-menu-name: "&l&aXác Nhận Mua"
+
+# Chat messages
+item-purchased: "&aMua vật phẩm!"
+buyer-purchased: "&6%buyer% &eđã mua vật phẩm của bạn với giá &b$%price%&e!"
+item-listed: "&eBạn đã có danh sách &d@item &d(x@amount) &evới giá &d@price. &eDùng &b/ah listings &eđể xem tất cả danh sách của bạn"
+cancelled-item: "&eBạn đã thoát khỏi đấu giá. &aTrả lại các mặt hàng đã hủy và hết hạn tại &b/ah expired&e."
+cancelled-purchase: "&cBạn đã thoát khỏi cuộc mua"
+admin-removed: "&eDanh sách đã xóa."
+purchased-item: "&aBạn đã mua vật phẩm &d@item &d(x@amount) &evới giá &b@price"               #@player, @item, @price, @amount
+seller-message: "&6@player &emua vật phẩm&d @item (x@amount) &etừ bạn &b@price!"           #@player, @item, @price, @amount
+returned-item: "&eBạn đã xóa vật phẩm &d@item &d(x@amount) &ckhỏi đấu giá."
+
+# Error messages
+in-creative: "&cBạn không thể bán vật phẩm ở chế độ sáng tạo."
+max-listings: "&cBạn không thẻ bán hơn 45 vật phẩm."
+invalid-price: "&cSai giá."
+no_empty: "&cTúi đồ bạn đang trống."
+not-enough-space: "Không đủ tiền trong túi"
+self-purchase: "&cBạn không thể mua vật phẩm của bạn!"
+item-gone: "&eVật phẩm này không còn nữa"
+no-item: "&cBạn phải để vật phẩm muốn bán trên tay!"
+cannot-afford: "&6Bạn không có đủ tiền để mua vật phẩm này."
+item-blacklisted: "&cVật phẩm này không thể bán trên đấu giá!"
+invalid-balance: "&cBạn không đủ xu để bán đồ."
+
+# Items in the menu UI
+listed-item:
+    # %price% = Price of listing
+    # %seller% = Username of seller
+    # %expire% = Time until listing expires
+    - "&l&7-------------------------"
+    - "§l§6● &aBấm Vào Đây Để Mua."
+    - ""
+    - "§l§6● &bGía: &e$%price%"
+    - "§l§6● &bNgười Bán: &e%seller%"
+    - "§l§6● &bHết Hạn: &e%time%"
+    - "&l&7-------------------------"
+your-listed-item:
+    # %price% = Price of listing
+    # %expire% = Time until listing expires
+    - "&l&7-------------------------"
+    - "§l§6● &aBấm Vào Đây Để Thoát."
+    - ""
+    - "§l§6● &bGía: &e$%price%"
+    - "§l§6● &bHết Hạn: &e%time%"
+    - "&l&7-------------------------"
+view-listed-items:
+    # %selling% = Number of active listings
+    id: 264
+    name: "§l§6● §aDanh Đồ Bán"
+    lore:
+        - "§l§6● §eBấm vào đây để xem các vật phẩm của bạn"
+        - ""
+        - "§l§6● &bSelling: &e%selling%"
+view-expired-items:
+    # %expired% = Number of expired listings
+    id: 394
+    name: "§l§6● §aDanh Vật Phẩm Hết Hạn"
+    lore:
+        - "§l§6● §eBấm vào đây để xem các vật phẩm hết hạn của bạn"
+        - ""
+        - "§l§6● &bHết Hạn: &e%expired%"
+previous-page:
+    id: "339"
+    name: "§l§e<< Trang trước"
+    lore:
+        - "§l§6● &bBấm vào để chuyển trang"
+next-page:
+    id: "339"
+    name: "§l§eTrang sau >>"
+    lore:
+        - "§l§6● &bBấm vào để chuyển trang"
+back-button:
+    id: "339"
+    name: "§l§6● §aTrở Lại Đấu Gía"
+    lore:
+sell-description:
+    id: "388"
+    name: "§l§6● §cHướng Dẫn"
+    lore:
+        - "§l§6● §eCầm đồ cần bán trên tay và ghi §a/ah sell <giá>"
+main-description:
+    id: "340"
+    name: "§l§6● §bĐấu Gía Là Gì"
+    lore:
+        - "&l§6● §eĐấu giá là nơi bạn có thể tự do buôn bán"
+        - "&l&enhững món đồ của bạn."
+main-stats:
+    id: "54"
+    name: "§l§6● &6Đấu Gía"
+    lore:
+        - "§l§6● &bTrang &c%page%&e/&a%max%"
+        - "§l§6● &bTổng Cộng &d%total% &eVật Phẩm"
+        - "§l§6● &eBấm Để Làm Mới"
+listings-description:
+    id: "340"
+    name: "§l§6● §bĐấu Gía Là Gì"
+    lore:
+        - "&l§6● §eĐấu giá là nơi bạn có thể tự do buôn bán"
+        - "&l&enhững món đồ của bạn."
+listings-stats:
+    # %page% = Current page
+    # %max% = Max page
+    # %total% = Total listing count
+    id: "54"
+    name: "§l§6● &6Danh Sách"
+    lore:
+        - "§l§6● &bTrang &c%page%&e/&a%max%"
+        - "§l§6● &bTổng Cộng &d%total% &eVật Phẩm"
+expired-description:
+    id: "340"
+    name: "§l§6● §bĐấu Gía Là Gì"
+    lore:
+        - "&l§6● §eĐấu giá là nơi bạn có thể tự do buôn bán"
+        - "&l&enhững món đồ của bạn."
+expired-stats:
+    # %page% = Current page
+    # %max% = Max page
+    # %total% = Total listing count
+    id: "152"
+    name: "§l§6● &cHết Hạn"
+    lore:
+        - "§l§6● &bTrang &c%page%&e/&a%max%"
+        - "§l§6● &bTổng Cộng &d%total% &eVật Phẩm"
+purchase-confirm:
+    name: "§l§6● &aXác Nhận Mua"
+purchase-cancel:
+    name: "§l§6● &cKhông Mua"
+purchaseItem:
+    lore:
+        - ""
+        - "§l§6● &bGía: &e$%price%"
+        - "§l§6● &bHết Hạn: &e%time%"
+...
